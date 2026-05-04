@@ -1,5 +1,5 @@
 const ACCESS_COOKIE = 'demo_access';
-const TOKEN_MAX_AGE_SECONDS = 30 * 24 * 60 * 60; // 30 days
+const TOKEN_MAX_AGE_SECONDS = 5 * 60 * 60; // 5 hours
 
 async function verifyToken(token) {
   const secret = process.env.DEMO_ACCESS_SECRET;
